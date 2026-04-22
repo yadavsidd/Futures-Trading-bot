@@ -1,0 +1,9 @@
+2026-04-22 13:45:10,050 | DEBUG | trading_bot | Validated symbol: BNBUSDT
+2026-04-22 13:45:10,051 | DEBUG | trading_bot | Validated side: SELL
+2026-04-22 13:45:10,051 | DEBUG | trading_bot | Validated order_type: LIMIT
+2026-04-22 13:45:10,051 | DEBUG | trading_bot | Validated quantity: 1.5
+2026-04-22 13:45:10,051 | DEBUG | trading_bot | Validated price: 350.5 for LIMIT order
+2026-04-22 13:45:10,051 | INFO | trading_bot | Placing LIMIT SELL order | Symbol: BNBUSDT | Qty: 1.5 | Price: 350.5
+2026-04-22 13:45:10,052 | DEBUG | trading_bot | POST request to /fapi/v1/order | params args: {'symbol': 'BNBUSDT', 'side': 'SELL', 'type': 'LIMIT', 'timeInForce': 'GTC', 'quantity': '1.5', 'price': '350.5', 'timestamp': 1709420310000, 'signature': '2b9e84dc2123ecf346ad4c8'}
+2026-04-22 13:45:10,512 | DEBUG | trading_bot | POST response from /fapi/v1/order | Status: 200 | Body: {"orderId": 87654321, "symbol": "BNBUSDT", "status": "NEW", "clientOrderId": "testLimit2", "price": "350.5", "avgPrice": "0.00000", "origQty": "1.5", "executedQty": "0", "cumQuote": "0", "timeInForce": "GTC", "type": "LIMIT", "reduceOnly": false, "closePosition": false, "side": "SELL", "positionSide": "BOTH", "stopPrice": "0", "workingType": "CONTRACT_PRICE", "priceProtect": false, "origType": "LIMIT", "updateTime": 1709420310450}
+2026-04-22 13:45:10,513 | INFO | trading_bot | LIMIT order result | OrderID: 87654321 | Status: NEW

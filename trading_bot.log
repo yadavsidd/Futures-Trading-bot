@@ -1,0 +1,68 @@
+2026-04-22 14:32:59,195 | DEBUG | trading_bot | Validated symbol: BTCUSDT
+2026-04-22 14:32:59,195 | DEBUG | trading_bot | Validated side: BUY
+2026-04-22 14:32:59,195 | DEBUG | trading_bot | Validated order_type: MARKET
+2026-04-22 14:32:59,195 | DEBUG | trading_bot | Validated quantity: 0.05
+2026-04-22 14:32:59,195 | DEBUG | trading_bot | Validated price: ignored for MARKET order
+2026-04-22 14:32:59,195 | DEBUG | trading_bot | Validated stop price: ignored for MARKET order
+2026-04-22 14:32:59,199 | INFO | trading_bot | Placing MARKET BUY order | Symbol: BTCUSDT | Qty: 0.05
+2026-04-22 14:32:59,199 | DEBUG | trading_bot | POST request to /fapi/v1/order | params args: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.05', 'timestamp': 1776848579199, 'signature': '7d6ac171e547fb6bc44f8c1887493a434984c5b9544f0c7592cb9ac797188c41'}
+2026-04-22 14:33:00,217 | DEBUG | trading_bot | POST response from /fapi/v1/order | Status: 200 | Body: {"orderId":13060790564,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"I59rOQnSTBjatvjlSLKw7h","price":"0.00","avgPrice":"0.00","origQty":"0.0500","executedQty":"0.0000","cumQty":"0.0000","cumQuote":"0.000000","timeInForce":"GTC","type":"MARKET","reduceOnly":false,"closePosition":false,"side":"BUY","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"MARKET","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTime":1776848580102}
+2026-04-22 14:33:00,218 | INFO | trading_bot | MARKET order result | OrderID: 13060790564 | Status: NEW
+2026-04-22 14:34:57,757 | DEBUG | trading_bot | Validated symbol: BNBUSDT
+2026-04-22 14:34:57,758 | DEBUG | trading_bot | Validated side: BUY
+2026-04-22 14:34:57,758 | DEBUG | trading_bot | Validated order_type: LIMIT
+2026-04-22 14:34:57,758 | DEBUG | trading_bot | Validated quantity: 5.0
+2026-04-22 14:34:57,758 | DEBUG | trading_bot | Validated price: 350.5 for LIMIT order
+2026-04-22 14:34:57,758 | DEBUG | trading_bot | Validated stop price: ignored for LIMIT order
+2026-04-22 14:34:57,762 | INFO | trading_bot | Placing LIMIT BUY order | Symbol: BNBUSDT | Qty: 5.0 | Price: 350.5
+2026-04-22 14:34:57,762 | DEBUG | trading_bot | POST request to /fapi/v1/order | params args: {'symbol': 'BNBUSDT', 'side': 'BUY', 'type': 'LIMIT', 'timeInForce': 'GTC', 'quantity': '5.0', 'price': '350.5', 'timestamp': 1776848697762, 'signature': 'c14ed9f82eceda5dfe0853a5a181f1e2fc9cad08bfb96634eaeb799bb98cfb52'}
+2026-04-22 14:34:58,597 | DEBUG | trading_bot | POST response from /fapi/v1/order | Status: 200 | Body: {"orderId":1344569763,"symbol":"BNBUSDT","status":"NEW","clientOrderId":"2BychEaUoC0WaCw4UhpJCk","price":"350.500","avgPrice":"0.00","origQty":"5.00","executedQty":"0.00","cumQty":"0.00","cumQuote":"0.00000","timeInForce":"GTC","type":"LIMIT","reduceOnly":false,"closePosition":false,"side":"BUY","positionSide":"BOTH","stopPrice":"0.000","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"LIMIT","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTime":1776848698516}
+2026-04-22 14:34:58,598 | INFO | trading_bot | LIMIT order result | OrderID: 1344569763 | Status: NEW
+2026-04-22 14:50:52,799 | DEBUG | trading_bot | Validated symbol: BTCUSDT
+2026-04-22 14:50:52,799 | DEBUG | trading_bot | GET order 13060790564 for BTCUSDT
+2026-04-22 14:57:03,994 | DEBUG | trading_bot | Validated symbol: BTCUSDT
+2026-04-22 14:57:20,919 | DEBUG | trading_bot | Validated quantity: 0.05
+2026-04-22 14:57:24,705 | INFO | trading_bot | Placing MARKET BUY order | Symbol: BTCUSDT | Qty: 0.05
+2026-04-22 14:57:24,705 | DEBUG | trading_bot | POST request to /fapi/v1/order | params args: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.05', 'timestamp': 1776850044705, 'signature': '6647b05a60507e9da5e1181e30cadf78670596a9b00659d73a51acbce8d4abfd'}
+2026-04-22 14:57:25,839 | DEBUG | trading_bot | POST response from /fapi/v1/order | Status: 200 | Body: {"orderId":13060857055,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"iNgGK3z1dXoEYgNGBAhHBE","price":"0.00","avgPrice":"0.00","origQty":"0.0500","executedQty":"0.0000","cumQty":"0.0000","cumQuote":"0.000000","timeInForce":"GTC","type":"MARKET","reduceOnly":false,"closePosition":false,"side":"BUY","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"MARKET","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTime":1776850045779}
+2026-04-22 14:57:25,840 | INFO | trading_bot | MARKET order result | OrderID: 13060857055 | Status: NEW
+2026-04-22 14:59:10,929 | DEBUG | trading_bot | Validated symbol: BTCUSDT
+2026-04-22 14:59:48,007 | DEBUG | trading_bot | Validated symbol: BTCUSDT
+2026-04-22 15:00:05,969 | DEBUG | trading_bot | Validated quantity: 0.1
+2026-04-22 15:00:21,563 | DEBUG | trading_bot | Validated price: 0.05 for LIMIT order
+2026-04-22 15:00:25,326 | INFO | trading_bot | Placing LIMIT BUY order | Symbol: BTCUSDT | Qty: 0.1 | Price: 0.05
+2026-04-22 15:00:25,326 | DEBUG | trading_bot | POST request to /fapi/v1/order | params args: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'timeInForce': 'GTC', 'quantity': '0.1', 'price': '0.05', 'timestamp': 1776850225326, 'signature': '2cdc5d6d66b892168772a3cc9a66a16f18de933fcbe5560427c02b343bb6897b'}
+2026-04-22 15:00:25,911 | DEBUG | trading_bot | POST response from /fapi/v1/order | Status: 400 | Body: {"code":-4013,"msg":"Price less than min price."}
+2026-04-22 15:01:09,929 | DEBUG | trading_bot | Validated symbol: BTCUSDT
+2026-04-22 15:01:21,376 | DEBUG | trading_bot | Validated quantity: 0.05
+2026-04-22 15:01:31,092 | DEBUG | trading_bot | Validated price: 1.0 for LIMIT order
+2026-04-22 15:01:32,516 | INFO | trading_bot | Placing LIMIT BUY order | Symbol: BTCUSDT | Qty: 0.05 | Price: 1.0
+2026-04-22 15:01:32,516 | DEBUG | trading_bot | POST request to /fapi/v1/order | params args: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'timeInForce': 'GTC', 'quantity': '0.05', 'price': '1.0', 'timestamp': 1776850292516, 'signature': '2b362874a4de2e7dadcf0c91988dd3232ddfffb6b03ca1e84fb6fed751aa3178'}
+2026-04-22 15:01:33,141 | DEBUG | trading_bot | POST response from /fapi/v1/order | Status: 400 | Body: {"code":-4013,"msg":"Price less than min price."}
+2026-04-22 15:01:49,262 | DEBUG | trading_bot | Validated symbol: BTCUSDT
+2026-04-22 15:01:59,417 | DEBUG | trading_bot | Validated quantity: 1.0
+2026-04-22 15:02:02,934 | INFO | trading_bot | Placing MARKET BUY order | Symbol: BTCUSDT | Qty: 1.0
+2026-04-22 15:02:02,935 | DEBUG | trading_bot | POST request to /fapi/v1/order | params args: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '1.0', 'timestamp': 1776850322935, 'signature': 'd8d8ccdb8520491068074cff2edbbad2120f2da0e22d19e8f3189537dbf3435d'}
+2026-04-22 15:02:03,594 | DEBUG | trading_bot | POST response from /fapi/v1/order | Status: 200 | Body: {"orderId":13060869527,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"v3V5rrtW9Nv2DbQeDKT6HI","price":"0.00","avgPrice":"0.00","origQty":"1.0000","executedQty":"0.0000","cumQty":"0.0000","cumQuote":"0.000000","timeInForce":"GTC","type":"MARKET","reduceOnly":false,"closePosition":false,"side":"BUY","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"MARKET","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTime":1776850323498}
+2026-04-22 15:02:03,595 | INFO | trading_bot | MARKET order result | OrderID: 13060869527 | Status: NEW
+2026-04-22 15:02:22,715 | DEBUG | trading_bot | Validated symbol: BTCUSDT
+2026-04-22 15:02:24,880 | DEBUG | trading_bot | GET order 13060869527 for BTCUSDT
+2026-04-22 15:02:38,073 | DEBUG | trading_bot | Validated symbol: BTCUSDT
+2026-04-22 15:02:48,067 | DEBUG | trading_bot | Validated quantity: 1.0
+2026-04-22 15:02:49,940 | INFO | trading_bot | Placing MARKET SELL order | Symbol: BTCUSDT | Qty: 1.0
+2026-04-22 15:02:49,940 | DEBUG | trading_bot | POST request to /fapi/v1/order | params args: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'MARKET', 'quantity': '1.0', 'timestamp': 1776850369940, 'signature': '7bcba85c1652aedb7088005bb448ffcc25cb11d1d4450f12d04240e748a7005e'}
+2026-04-22 15:02:50,597 | DEBUG | trading_bot | POST response from /fapi/v1/order | Status: 200 | Body: {"orderId":13060871637,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"wevKkllHhjxURfUL0RtySa","price":"0.00","avgPrice":"0.00","origQty":"1.0000","executedQty":"0.0000","cumQty":"0.0000","cumQuote":"0.000000","timeInForce":"GTC","type":"MARKET","reduceOnly":false,"closePosition":false,"side":"SELL","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"MARKET","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTime":1776850370472}
+2026-04-22 15:02:50,599 | INFO | trading_bot | MARKET order result | OrderID: 13060871637 | Status: NEW
+2026-04-22 15:03:02,137 | DEBUG | trading_bot | Validated symbol: BTCUSDT
+2026-04-22 15:03:33,694 | DEBUG | trading_bot | Validated quantity: 0.1
+2026-04-22 15:03:45,627 | DEBUG | trading_bot | Validated price: 1.0 for LIMIT order
+2026-04-22 15:03:47,238 | INFO | trading_bot | Placing LIMIT BUY order | Symbol: BTCUSDT | Qty: 0.1 | Price: 1.0
+2026-04-22 15:03:47,238 | DEBUG | trading_bot | POST request to /fapi/v1/order | params args: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'timeInForce': 'GTC', 'quantity': '0.1', 'price': '1.0', 'timestamp': 1776850427238, 'signature': '6604c6b71f75468d52b782263562a0d80eba25054a7b60a4d805cb0f2d121ce3'}
+2026-04-22 15:03:47,998 | DEBUG | trading_bot | POST response from /fapi/v1/order | Status: 400 | Body: {"code":-4013,"msg":"Price less than min price."}
+2026-04-22 15:06:34,547 | DEBUG | trading_bot | Validated symbol: BTCUSDT
+2026-04-22 15:06:51,944 | DEBUG | trading_bot | Validated quantity: 0.5
+2026-04-22 15:07:11,607 | DEBUG | trading_bot | Validated price: 76000.0 for LIMIT order
+2026-04-22 15:07:13,064 | INFO | trading_bot | Placing LIMIT BUY order | Symbol: BTCUSDT | Qty: 0.5 | Price: 76000.0
+2026-04-22 15:07:13,065 | DEBUG | trading_bot | POST request to /fapi/v1/order | params args: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'timeInForce': 'GTC', 'quantity': '0.5', 'price': '76000.0', 'timestamp': 1776850633064, 'signature': 'e80a4471dfa57bb6a16ced9ce269467c0e56ee13194a227609aedf35e6483fa3'}
+2026-04-22 15:07:13,620 | DEBUG | trading_bot | POST response from /fapi/v1/order | Status: 200 | Body: {"orderId":13060883450,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"bJFyTp8DzuKHQvP5NEZHBG","price":"76000.00","avgPrice":"0.00","origQty":"0.5000","executedQty":"0.0000","cumQty":"0.0000","cumQuote":"0.000000","timeInForce":"GTC","type":"LIMIT","reduceOnly":false,"closePosition":false,"side":"BUY","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"LIMIT","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTime":1776850633554}
+2026-04-22 15:07:13,623 | INFO | trading_bot | LIMIT order result | OrderID: 13060883450 | Status: NEW
