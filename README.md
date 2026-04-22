@@ -18,6 +18,7 @@ cd trading_bot
 cp .env.example .env
 # Edit .env and fill in your Demo API credentials from demo-fapi.binance.com
 ```
+> <img width="1859" height="382" alt="Screenshot From 2026-04-22 15-23-24" src="https://github.com/user-attachments/assets/e15317ea-ff8a-4e02-a145-73dfb88a648f" />
 
 ### 3. Create virtualenv & install dependencies
 ```bash
@@ -25,8 +26,6 @@ python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 ```
-
-> ⚠️ Never commit `.env` — it is already in `.gitignore`.
 
 ---
 
